@@ -1,0 +1,253 @@
+{
+  "sprite_sheet": "objects.png",
+  "animations": {
+    "grate_open": {
+      "frame_width": 32,
+      "frame_height": 32,
+      "row": 0,
+      "frames": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "speed": 0.12,
+      "loop": true
+    },
+    "door_open": {
+      "frame_width": 32,
+      "frame_height": 32,
+      "row": 1,
+      "frames": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "speed": 0.15,
+      "loop": true
+    },
+    "grate_close": {
+      "frame_width": 32,
+      "frame_height": 32,
+      "row": 2,
+      "frames": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "speed": 0.12,
+      "loop": true
+    },
+    "door_close": {
+      "frame_width": 32,
+      "frame_height": 32,
+      "row": 3,
+      "frames": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "speed": 0.15,
+      "loop": true
+    },
+    "chest_idle": {
+      "frame_width": 32,
+      "frame_height": 32,
+      "row": 4,
+      "frames": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "speed": 0.2,
+      "loop": true
+    },
+    "chest_lid": {
+      "frame_width": 32,
+      "frame_height": 32,
+      "row": 5,
+      "frames": [
+        0
+      ],
+      "speed": 0,
+      "loop": false
+    },
+    "lever_pull": {
+      "frame_width": 16,
+      "frame_height": 16,
+      "row": 6,
+      "frames": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "speed": 0.1,
+      "loop": true
+    },
+    "new_animation": {
+      "frame_width": 32,
+      "frame_height": 32,
+      "row": 0,
+      "frames": [
+        0
+      ],
+      "speed": 0.5,
+      "loop": true
+    },
+    "anim_Gate_NEW": {
+      "frame_width": 32,
+      "frame_height": 32,
+      "row": 0,
+      "frames": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "speed": 1.0,
+      "loop": true
+    },
+    "anim_plit": {
+      "frame_width": 16,
+      "frame_height": 16,
+      "row": 11,
+      "frames": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "speed": 0.1,
+      "loop": true
+    },
+    "new_Prikol": {
+      "frame_width": 16,
+      "frame_height": 16,
+      "row": 0,
+      "frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "speed": 0.5,
+      "loop": true
+    },
+    "new_P": {
+      "frame_width": 32,
+      "frame_height": 32,
+      "row": 0,
+      "frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "speed": 0.5,
+      "loop": true
+    },
+    "new_ЛЗ": {
+      "frame_width": 32,
+      "frame_height": 32,
+      "frames": [
+        {
+          "row": 3,
+          "col": 0
+        },
+        {
+          "row": 3,
+          "col": 1
+        },
+        {
+          "row": 3,
+          "col": 2
+        },
+        {
+          "row": 3,
+          "col": 3
+        },
+        {
+          "row": 3,
+          "col": 4
+        },
+        {
+          "row": 4,
+          "col": 0
+        },
+        {
+          "row": 4,
+          "col": 1
+        },
+        {
+          "row": 4,
+          "col": 2
+        },
+        {
+          "row": 4,
+          "col": 3
+        },
+        {
+          "row": 4,
+          "col": 4
+        }
+      ],
+      "speed": 0.85,
+      "loop": true
+    }
+  }
+}

@@ -6,7 +6,6 @@ from config import *
 from src.editor.texture_loader import texture_loader
 from src.editor.texture_panel import TexturePanel
 from src.editor.animation_panel import AnimationPanel
-from src.editor.animation_loader import animation_loader
 from src.editor.tabs_panel import TabsPanel
 from src.editor.room_editor import RoomEditor
 from src.editor.connections_panel import ConnectionsPanel

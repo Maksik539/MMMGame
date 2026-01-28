@@ -23,6 +23,8 @@ class Animation:
     
     def update(self):
         """Update animation frame"""
+        if not self.frames:
+            return
         now = pygame.time.get_ticks()
         if now - self.last_update > self.frame_duration:
             self.current_frame = (self.current_frame + 1) % len(self.frames)
@@ -30,6 +32,8 @@ class Animation:
     
     def get_current_frame(self):
         """Get current animation frame"""
+        if not self.frames:
+            return None
         return self.frames[self.current_frame]
     
     def reset(self):

@@ -48,7 +48,10 @@ class TexturePanel:
                 elif event.button == 4:  # Scroll up
                     self.scroll_offset = max(0, self.scroll_offset - 1)
                 elif event.button == 5:  # Scroll down
-                    self.scroll_offset += 1
+                    textures = texture_loader.get_all_textures()
+                    tiles_per_row = max(1, (self.rect.width - 10) // (self.tile_size + 5))
+                    max_scroll = max(0, (len(textures) + tiles_per_row - 1) // tiles_per_row - (self.rect.height - 30) // (self.tile_size + 5))
+                    self.scroll_offset = min(max_scroll, self.scroll_offset + 1)
     
     def _select_texture(self, pos):
         """Select texture at position"""

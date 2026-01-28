@@ -4,8 +4,6 @@ Room Editor
 import pygame
 from config import *
 from src.editor.texture_loader import texture_loader
-from src.editor.animation_loader import animation_loader
-from src.graphics.procedural_sprites import ProceduralSpriteGenerator
 
 
 class RoomEditor:

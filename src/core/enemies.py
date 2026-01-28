@@ -5,7 +5,6 @@ import pygame
 import random
 from config import *
 from src.core.projectiles import Projectile
-from src.graphics.asset_coordinator import asset_coordinator
 
 
 class Enemy(pygame.sprite.Sprite):

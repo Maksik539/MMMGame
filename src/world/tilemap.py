@@ -3,7 +3,6 @@ Tilemap and Level Builder
 """
 import pygame
 from config import *
-from src.graphics.asset_coordinator import asset_coordinator
 from src.graphics.procedural_sprites import ProceduralSpriteGenerator
 
 
